@@ -30,7 +30,7 @@ public class ThreadForProducer implements Runnable {
 
                 System.out.println(
                         "--------------------\n" +
-                                "- Producer: Add" + addNewMassage.getMessage() + "\n" +
+                                "- Producer: Add " + addNewMassage.getMessage() + "\n" + 
                                 "List massage in Queue"
                 );
 
