@@ -22,7 +22,7 @@ public class ThreadForConsumer implements Runnable {
                 if (queue.isEmpty()) {
                     System.out.println(
                             "--------------------\n" +
-                                    "Consumer: queue is empty can take");
+                                    "+ Consumer: queue is empty can take");
                 }
 
                 Massage takeMassageFormQuene = queue.take();
